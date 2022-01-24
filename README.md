@@ -1,15 +1,15 @@
 # Grain chain test appium
 
-##Set up Properties and Runner
+## Set up Properties and Runner
 
-###Properties
+### Properties
 Set node and appium path on the [src/test/java/config.properties](src/test/java/config.properties)
 
     nodePath: Node js absolut path.
     appiumPath: Appium absolut path.
     alwaysRecord: Flag to record all the time or only when the test case was fialed.
 
-###Runner
+### Runner
 
 Set device name, device udid on the [src/test/java/runners/AndroidRunner.java](src/test/java/runners/AndroidRunner.java)
 
@@ -18,7 +18,7 @@ Set device name, device udid on the [src/test/java/runners/AndroidRunner.java](s
     appPath(Optional): If the Grain chain app is not installed on the device, 
                         set the absolut path where grain chain apk is located.
 
-##Run test
+## Run test
 
 Execute the [src/test/java/runners/AndroidRunner.java](src/test/java/runners/AndroidRunner.java)
 
